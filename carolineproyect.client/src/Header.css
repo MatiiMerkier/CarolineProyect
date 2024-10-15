@@ -1,0 +1,42 @@
+﻿.header-container {
+    background-color: #1d3b6d;
+    width: 100%;
+    height: 15vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1vw solid transparent;
+    border-image: linear-gradient(to right, #388074, #72a340, #627741) 1;
+    z-index: 1;
+}
+
+.div-header-center {
+    flex: 0;
+    display: flex;
+    justify-content: center;
+    background-color: transparent;
+}
+
+.div-header-center img {
+    width: 20vw;
+    padding-top: 5.5vw;
+    background-color: transparent;
+    z-index: 2;
+}
+.div-header-container {
+    background-color: transparent;
+    color: #e1a046;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.div-header-container h3 {
+    background-color: transparent;
+    justify-content: flex-end;
+    padding-top: 10vw;
+    font-size: 3.5vw;
+    font-weight: 200;
+    font-family: 'BigNoodleTitling';
+}

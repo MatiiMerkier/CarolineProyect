@@ -1,0 +1,108 @@
+﻿.main-image {
+    background-image: url('../public/main_background.png');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    height: 63vw;
+    width: 100%;
+    z-index: 0;
+    overflow: hidden;
+}
+
+.bottom-header-container {
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.bottom-header-item {
+    background-color: transparent;
+}
+.bottom-header-item h1{
+    background-color: transparent;
+    color: white;
+    font-size: 5vw;
+    font-weight: 200;
+    padding-bottom: 5vw;
+    font-family: 'BigNoodleTitling';
+}
+
+.bottom-header-item p {
+    background-color: transparent;
+    color: white;
+    font-size: 3.5vw;
+    font-weight: 200;
+    font-style: normal;
+    padding-bottom: 3vw;
+    font-family: 'BigNoodleTitling';
+}
+
+.bottom-container {
+    background-color: #1d3b6d;
+    width: 100%;
+    height: 9vw;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    border-bottom: 1vw solid transparent;
+    border-image: linear-gradient(to right, #388074, #72a340, #627741) 1;
+}
+
+.bottom-container-button {
+    background-color: transparent;
+    text-transform: uppercase;
+    margin-bottom: 1.75vw;
+}
+
+.bottom-container-button a {
+    text-decoration: none;
+    background-color: transparent;
+}
+
+.custom-button {
+    background-color: #f5a142; 
+    border: none;
+    border-radius: 50px;
+    color: #173b6c; 
+    padding: 0.5vh 5vw; 
+    font-size: 3vw; 
+    font-weight: bold;
+    font-family: 'BigNoodleTitling';
+    cursor: pointer;
+    position: relative;
+    text-transform: uppercase;
+    box-shadow: 0 0.5vh #c4771e;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.custom-button:active {
+    transform: translateY(4px); 
+    box-shadow: 0 2px #c4771e; 
+}
+
+.custom-button::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 50px;
+    background: linear-gradient(to bottom right, #f7b554, #f5a142);
+    z-index: -1;
+}
+
+.second-section-title {
+    font-family: 'BigNoodleTitling';
+    color: #1d3b6d;
+    text-align: center;
+    margin-inline: 5vw;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    font-size: 3vw;
+}

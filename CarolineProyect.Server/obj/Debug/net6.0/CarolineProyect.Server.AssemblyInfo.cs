@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CarolineProyect.Server")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2fa7216de27a86af774d869fc39494bb169de007")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c43f10948a0e83c0ad9742e09cd3eeed1019985d")]
 [assembly: System.Reflection.AssemblyProductAttribute("CarolineProyect.Server")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CarolineProyect.Server")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
