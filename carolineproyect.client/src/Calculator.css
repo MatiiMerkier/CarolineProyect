@@ -1,5 +1,4 @@
-﻿
-.main-container h1 {
+﻿.main-container h1 {
     background-color: transparent;
     color: #1d3b6d;
     text-align: center;
@@ -23,6 +22,69 @@
     color: #1d3b6d;
     text-align: center;
     font-size: 2vw;
+    margin-bottom: 1vw;
     font-weight: 200;
     font-family: 'BigNoodleTitling';
+}
+
+.main-container h3 {
+    background-color: transparent;
+    color: #1d3b6d;
+    text-align: center;
+    margin-top: 4vw;
+    font-size: 3vw;
+    font-family: 'BigNoodleTitling';
+    text-decoration: underline;
+}
+
+.cards-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 2vw;
+    margin-top: 2vw;
+}
+
+.calculator-bottom-container p {
+    margin-top: 4vw;
+    font-size: 3vw;
+}
+
+.calculator-bottom-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.custom-button {
+    background-color: #f5a142;
+    border: none;
+    border-radius: 50px;
+    color: #173b6c;
+    padding: 0.5vh 5vw;
+    font-size: 3vw;
+    font-weight: bold;
+    font-family: 'BigNoodleTitling';
+    cursor: pointer;
+    position: relative;
+    text-transform: uppercase;
+    box-shadow: 0 0.5vh #c4771e;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.custom-button:active {
+    transform: translateY(4px);
+    box-shadow: 0 2px #c4771e;
+}
+
+.custom-button::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 50px;
+    background: linear-gradient(to bottom right, #f7b554, #f5a142);
+    z-index: -1;
 }
