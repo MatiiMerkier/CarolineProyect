@@ -10,3 +10,45 @@
     padding: 20px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
+
+.school-input {
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    background-color: #f9f9f9;
+}
+
+.school-input:focus {
+    outline: none;
+    border-color: #007bff;
+}
+
+.card-main-container h4 {
+    background-color: transparent;
+    font-size: 3.5vw;
+    font-weight: 200;
+    font-family: 'BigNoodleTitling';
+    text-align:center;
+}
+
+.card-main-container h5 {
+    background-color: transparent;
+    font-size: 2vw;
+    font-weight: 200;
+    font-family: 'BigNoodleTitling';
+    color: #f5a142;
+    text-align: center;
+}
+
+.card-main-container h6 {
+    background-color: transparent;
+    font-size: 1.5vw;
+    color: #173b6c;
+    font-weight: 200;
+    font-family: 'BigNoodleTitling';
+    text-align: center;
+}
+

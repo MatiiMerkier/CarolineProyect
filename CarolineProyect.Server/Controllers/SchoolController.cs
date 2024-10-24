@@ -1,5 +1,6 @@
 using CarolineProyect.Server.Services;
 using Microsoft.AspNetCore.Mvc;
+using System.Reflection.Metadata.Ecma335;
 
 namespace CarolineProyect.Server.Controllers
 {
@@ -18,14 +19,31 @@ namespace CarolineProyect.Server.Controllers
         }
 
         [HttpGet("get-all")]
-        public List<School> GetAll()
+        public List<School> GetAll(int skip = 0)
         {
-            return _schools;
+            return _schools.Skip(skip).Take(20).ToList();
+        }
+
+        [HttpGet("filter")]
+        public List<School> Filter(string filter)
+        {
+            var results = _schools.Where(x => x.Institution.ToLower().Contains(filter.ToLower()) || x.FieldOfStudy.ToLower().Contains(filter.ToLower())).Take(20).ToList();
+            return results;
         }
 
         [HttpPost("compare")]
-        public List<School> Compare(SchoolRequest request)
+        public List<School> Compare(List<int> ids)
         {
+            var selectedList = new List<School>();
+            foreach(int id in ids)
+            {
+                var school = _schools.Where(x => x.Id.Equals(id)).FirstOrDefault();
+                selectedList.Add(school);
+            }
+            
+            // MATH
+
+
             return _schools;
         }
     }

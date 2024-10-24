@@ -14,7 +14,7 @@ const App = () => {
                     <div className="bottom-container">
                         <div className="bottom-container-button">
                             <Link to="/calculator" style={{ textDecoration: 'none' }}>
-                                <button class="custom-button">CLICK HERE</button>
+                                <button className="custom-button">CLICK HERE</button>
                             </Link>                         
                         </div>
                         <div className="bottom-header-item">

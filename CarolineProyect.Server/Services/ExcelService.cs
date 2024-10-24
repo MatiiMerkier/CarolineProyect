@@ -28,7 +28,7 @@ namespace CarolineProyect.Server.Services
                 {
                     School school = new School
                     {
-                        Id = row,
+                        Id = row - 1,
                         State = worksheet.Cells[row, 1].Text,        
                         Institution = worksheet.Cells[row, 2].Text,
                         CredentialType = worksheet.Cells[row, 3].Text,
