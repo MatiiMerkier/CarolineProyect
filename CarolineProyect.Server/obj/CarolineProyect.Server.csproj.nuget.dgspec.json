@@ -54,6 +54,10 @@
               "target": "Package",
               "version": "[7.4.1, )"
             },
+            "MathNet.Symbolics": {
+              "target": "Package",
+              "version": "[0.25.0, )"
+            },
             "Microsoft.AspNetCore.SpaProxy": {
               "target": "Package",
               "version": "[6.*-*, )"

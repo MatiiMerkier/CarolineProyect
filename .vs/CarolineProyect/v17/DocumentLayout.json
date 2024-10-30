@@ -3,8 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\Matias\\Desktop\\CarolineProyect\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3DF1A8B1-CE05-45BE-B4B0-177E2B8AE83A}|carolineproyect.client\\carolineproyect.client.esproj|c:\\users\\matias\\desktop\\carolineproyect\\carolineproyect.client\\src\\calculator.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{3DF1A8B1-CE05-45BE-B4B0-177E2B8AE83A}|carolineproyect.client\\carolineproyect.client.esproj|solutionrelative:carolineproyect.client\\src\\calculator.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+      "AbsoluteMoniker": "D:0:0:{3DF1A8B1-CE05-45BE-B4B0-177E2B8AE83A}|carolineproyect.client\\carolineproyect.client.esproj|c:\\users\\matias\\desktop\\carolineproyect\\carolineproyect.client\\src\\modal.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{3DF1A8B1-CE05-45BE-B4B0-177E2B8AE83A}|carolineproyect.client\\carolineproyect.client.esproj|solutionrelative:carolineproyect.client\\src\\modal.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3DF1A8B1-CE05-45BE-B4B0-177E2B8AE83A}|carolineproyect.client\\carolineproyect.client.esproj|c:\\users\\matias\\desktop\\carolineproyect\\carolineproyect.client\\src\\modal.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{3DF1A8B1-CE05-45BE-B4B0-177E2B8AE83A}|carolineproyect.client\\carolineproyect.client.esproj|solutionrelative:carolineproyect.client\\src\\modal.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3DF1A8B1-CE05-45BE-B4B0-177E2B8AE83A}|carolineproyect.client\\carolineproyect.client.esproj|c:\\users\\matias\\desktop\\carolineproyect\\carolineproyect.client\\src\\schoolcard.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{3DF1A8B1-CE05-45BE-B4B0-177E2B8AE83A}|carolineproyect.client\\carolineproyect.client.esproj|solutionrelative:carolineproyect.client\\src\\schoolcard.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3DF1A8B1-CE05-45BE-B4B0-177E2B8AE83A}|carolineproyect.client\\carolineproyect.client.esproj|c:\\users\\matias\\desktop\\carolineproyect\\carolineproyect.client\\src\\schoolcard.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{3DF1A8B1-CE05-45BE-B4B0-177E2B8AE83A}|carolineproyect.client\\carolineproyect.client.esproj|solutionrelative:carolineproyect.client\\src\\schoolcard.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3DF1A8B1-CE05-45BE-B4B0-177E2B8AE83A}|carolineproyect.client\\carolineproyect.client.esproj|c:\\users\\matias\\desktop\\carolineproyect\\carolineproyect.client\\src\\calculator.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
@@ -15,12 +27,8 @@
       "RelativeMoniker": "D:0:0:{BA02D7CC-3C1A-4756-A2CA-EBB0BACC0A01}|CarolineProyect.Server\\CarolineProyect.Server.csproj|solutionrelative:carolineproyect.server\\controllers\\schoolcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3DF1A8B1-CE05-45BE-B4B0-177E2B8AE83A}|carolineproyect.client\\carolineproyect.client.esproj|c:\\users\\matias\\desktop\\carolineproyect\\carolineproyect.client\\src\\schoolcard.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{3DF1A8B1-CE05-45BE-B4B0-177E2B8AE83A}|carolineproyect.client\\carolineproyect.client.esproj|solutionrelative:carolineproyect.client\\src\\schoolcard.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3DF1A8B1-CE05-45BE-B4B0-177E2B8AE83A}|carolineproyect.client\\carolineproyect.client.esproj|c:\\users\\matias\\desktop\\carolineproyect\\carolineproyect.client\\src\\schoolcard.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{3DF1A8B1-CE05-45BE-B4B0-177E2B8AE83A}|carolineproyect.client\\carolineproyect.client.esproj|solutionrelative:carolineproyect.client\\src\\schoolcard.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+      "AbsoluteMoniker": "D:0:0:{3DF1A8B1-CE05-45BE-B4B0-177E2B8AE83A}|carolineproyect.client\\carolineproyect.client.esproj|c:\\users\\matias\\desktop\\carolineproyect\\carolineproyect.client\\src\\calculator.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{3DF1A8B1-CE05-45BE-B4B0-177E2B8AE83A}|carolineproyect.client\\carolineproyect.client.esproj|solutionrelative:carolineproyect.client\\src\\calculator.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,32 +38,32 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Calculator.css",
-              "DocumentMoniker": "C:\\Users\\Matias\\Desktop\\CarolineProyect\\carolineproyect.client\\src\\Calculator.css",
-              "RelativeDocumentMoniker": "carolineproyect.client\\src\\Calculator.css",
-              "ToolTip": "C:\\Users\\Matias\\Desktop\\CarolineProyect\\carolineproyect.client\\src\\Calculator.css",
-              "RelativeToolTip": "carolineproyect.client\\src\\Calculator.css",
-              "ViewState": "AQIAAB8AAAAAAAAAAAAQwDoAAAAOAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-10-24T19:14:28.196Z",
+              "DocumentIndex": 0,
+              "Title": "Modal.jsx",
+              "DocumentMoniker": "C:\\Users\\Matias\\Desktop\\CarolineProyect\\carolineproyect.client\\src\\Modal.jsx",
+              "RelativeDocumentMoniker": "carolineproyect.client\\src\\Modal.jsx",
+              "ToolTip": "C:\\Users\\Matias\\Desktop\\CarolineProyect\\carolineproyect.client\\src\\Modal.jsx",
+              "RelativeToolTip": "carolineproyect.client\\src\\Modal.jsx",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2024-10-30T20:01:16.018Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "SchoolCard.css",
-              "DocumentMoniker": "C:\\Users\\Matias\\Desktop\\CarolineProyect\\carolineproyect.client\\src\\SchoolCard.css",
-              "RelativeDocumentMoniker": "carolineproyect.client\\src\\SchoolCard.css",
-              "ToolTip": "C:\\Users\\Matias\\Desktop\\CarolineProyect\\carolineproyect.client\\src\\SchoolCard.css",
-              "RelativeToolTip": "carolineproyect.client\\src\\SchoolCard.css",
-              "ViewState": "AQIAAA8AAAAAAAAAAAAQwDAAAAASAAAA",
+              "DocumentIndex": 1,
+              "Title": "Modal.css",
+              "DocumentMoniker": "C:\\Users\\Matias\\Desktop\\CarolineProyect\\carolineproyect.client\\src\\Modal.css",
+              "RelativeDocumentMoniker": "carolineproyect.client\\src\\Modal.css",
+              "ToolTip": "C:\\Users\\Matias\\Desktop\\CarolineProyect\\carolineproyect.client\\src\\Modal.css",
+              "RelativeToolTip": "carolineproyect.client\\src\\Modal.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-10-24T02:22:18.285Z",
+              "WhenOpened": "2024-10-30T20:01:14.114Z",
               "EditorCaption": ""
             },
             {
@@ -66,33 +74,59 @@
               "RelativeDocumentMoniker": "carolineproyect.client\\src\\SchoolCard.jsx",
               "ToolTip": "C:\\Users\\Matias\\Desktop\\CarolineProyect\\carolineproyect.client\\src\\SchoolCard.jsx",
               "RelativeToolTip": "carolineproyect.client\\src\\SchoolCard.jsx",
-              "ViewState": "AQIAAAkAAAAAAAAAAADwvxYAAABCAAAA",
+              "ViewState": "AQIAAD8AAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
-              "WhenOpened": "2024-10-19T21:23:20.588Z",
+              "WhenOpened": "2024-10-30T19:58:12.176Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
+              "Title": "Calculator.css",
+              "DocumentMoniker": "C:\\Users\\Matias\\Desktop\\CarolineProyect\\carolineproyect.client\\src\\Calculator.css",
+              "RelativeDocumentMoniker": "carolineproyect.client\\src\\Calculator.css",
+              "ToolTip": "C:\\Users\\Matias\\Desktop\\CarolineProyect\\carolineproyect.client\\src\\Calculator.css",
+              "RelativeToolTip": "carolineproyect.client\\src\\Calculator.css",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAAHIAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-10-24T19:14:28.196Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SchoolCard.css",
+              "DocumentMoniker": "C:\\Users\\Matias\\Desktop\\CarolineProyect\\carolineproyect.client\\src\\SchoolCard.css",
+              "RelativeDocumentMoniker": "carolineproyect.client\\src\\SchoolCard.css",
+              "ToolTip": "C:\\Users\\Matias\\Desktop\\CarolineProyect\\carolineproyect.client\\src\\SchoolCard.css",
+              "RelativeToolTip": "carolineproyect.client\\src\\SchoolCard.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-10-24T02:22:18.285Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "Calculator.jsx",
               "DocumentMoniker": "C:\\Users\\Matias\\Desktop\\CarolineProyect\\carolineproyect.client\\src\\Calculator.jsx",
               "RelativeDocumentMoniker": "carolineproyect.client\\src\\Calculator.jsx",
               "ToolTip": "C:\\Users\\Matias\\Desktop\\CarolineProyect\\carolineproyect.client\\src\\Calculator.jsx",
               "RelativeToolTip": "carolineproyect.client\\src\\Calculator.jsx",
-              "ViewState": "AQIAADgAAAAAAAAAAAAuwE8AAAA+AAAA",
+              "ViewState": "AQIAAGMAAAAAAAAAAIBJwGoAAAAxAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
               "WhenOpened": "2024-10-19T21:22:39.967Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "SchoolController.cs",
               "DocumentMoniker": "C:\\Users\\Matias\\Desktop\\CarolineProyect\\CarolineProyect.Server\\Controllers\\SchoolController.cs",
               "RelativeDocumentMoniker": "CarolineProyect.Server\\Controllers\\SchoolController.cs",
               "ToolTip": "C:\\Users\\Matias\\Desktop\\CarolineProyect\\CarolineProyect.Server\\Controllers\\SchoolController.cs",
               "RelativeToolTip": "CarolineProyect.Server\\Controllers\\SchoolController.cs",
-              "ViewState": "AQIAABwAAAAAAAAAAAAQwB8AAAAJAAAA",
+              "ViewState": "AQIAAB0AAAAAAAAAAAA9wCcAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-19T16:09:54.95Z",
               "EditorCaption": ""

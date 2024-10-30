@@ -56,7 +56,7 @@
     justify-content: center;
     align-items: center;
 }
-.custom-button {
+.custom-button-compare {
     background-color: #f5a142;
     border: none;
     border-radius: 50px;
@@ -87,4 +87,32 @@
     border-radius: 50px;
     background: linear-gradient(to bottom right, #f7b554, #f5a142);
     z-index: -1;
+}
+
+.rating-scale {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+    margin-bottom: 1vw;
+}
+
+.rating-scale p{
+    margin-inline: 2vw;
+}
+
+
+.calculator-bottom-container-compare {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.calculator-bottom-container-compare h6 {
+    color: #1d3b6d;
+    text-align: center;
+    margin-top: 1vw;
+    font-size: 3vw;
+    font-family: 'BigNoodleTitling';
 }

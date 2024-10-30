@@ -16,7 +16,7 @@
     background-color: white;
     padding: 20px;
     border-radius: 8px;
-    max-width: 500px;
+    max-width: 50%;
     width: 100%;
     max-height: 70vh;
     overflow-y: auto; 
@@ -35,7 +35,8 @@
 }
 
 .school-list button {
-    padding: 10px 15px;
+    padding: 1vw 0.5vw;
+    font-size: 1vw;
     border: none;
     background-color: #f0f0f0;
     cursor: pointer;
@@ -59,7 +60,7 @@
     right: 10px;
     background: none;
     border: none;
-    font-size: 24px;
+    font-size: 2vw;
     cursor: pointer;
     color: #333;
 }
@@ -75,7 +76,7 @@
 .filter-input {
     width: 100%;
     padding: 10px;
-    font-size: 14px;
+    font-size: 1vw;
     border-radius: 5px;
     border: 1px solid #ccc;
     cursor: pointer;

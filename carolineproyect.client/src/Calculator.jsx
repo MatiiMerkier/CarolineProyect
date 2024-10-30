@@ -4,7 +4,9 @@ import './Common.css';
 import SchoolCard from './SchoolCard.jsx';
 
 const Calculator = () => {
-    const [schools, setSchools] = useState([]); 
+    const [schools, setSchools] = useState([]);
+    const [compareResults, setCompareResults] = useState([]);
+    const [compareStatus, setCompareStatus] = useState(false); 
     const [selectedSchools, setSelectedSchools] = useState({
         school1: '',
         school2: '',
@@ -66,19 +68,25 @@ const Calculator = () => {
 
             const selectedSchoolIds = Object.values(selectedSchools).filter(id => id);
 
-            fetch(`https://localhost:7072/School/filter?ids=${selectedSchoolIds}`)
+            fetch(`https://localhost:7072/School/compare`, {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify(selectedSchoolIds)
+            })
                 .then((response) => response.json())
                 .then((data) => {
-
-                    //GET RESULTS 
-
+                    setCompareResults(data.result);
+                    setCompareStatus(data.status);
                 })
                 .catch((error) => console.error('Error fetching schools:', error))
                 .finally(() => setIsLoading(false));
         }
         else {
-/*            alert("You must select 3 schools to compare");*/
+            alert("You must select 3 schools to compare");
         }
+        return;
     };
 
     return (
@@ -96,26 +104,49 @@ const Calculator = () => {
                     schools={schools}
                     selectedSchool={selectedSchools.school1}
                     alreadySelected={selectedSchools}
+                    compareData={compareResults[0]}
+                    compareStatus={compareStatus}
                     onSelect={(e) => handleSelect('school1', e)}
                 />
                 <SchoolCard
                     schools={schools}
                     selectedSchool={selectedSchools.school2}
                     alreadySelected={selectedSchools}
+                    compareData={compareResults[1]}
+                    compareStatus={compareStatus}
                     onSelect={(e) => handleSelect('school2', e)}
                 />
                 <SchoolCard
                     schools={schools}
                     selectedSchool={selectedSchools.school3}
                     alreadySelected={selectedSchools}
+                    compareData={compareResults[2]}
+                    compareStatus={compareStatus}
                     onSelect={(e) => handleSelect('school3', e)}
                 />
             </div>
 
-            <div className="calculator-bottom-container">
-                <p>*Subtract things from base tuition, including scholarships and aids</p>
-                <button className="custom-button" onClick={compare()}>Compare</button>
-            </div>
+            {!compareStatus && (
+                <div className="calculator-bottom-container">
+                    <p>*Subtract things from base tuition, including scholarships and aids</p>
+                    <button className="custom-button-compare" onClick={compare}>Compare</button>
+                </div>
+            )}
+            {compareStatus && (
+                <div className="calculator-bottom-container-compare">
+                    <h6> Rating A-F </h6>
+                    <p>(Age You Can Retire)</p>
+                    <div className="rating-scale">
+                        <p>A: 55 And Below</p>
+                        <p>B: 56-67</p>
+                        <p>C: 68-70</p>
+                        <p>D: 71-75</p>
+                        <p>F: 75+</p>
+                    </div>
+                    <button className="custom-button-compare" onClick={() => setCompareStatus(false)}>BACK</button>
+                </div>
+            )}
+
         </div>
     );
 };

@@ -1,5 +1,7 @@
 using CarolineProyect.Server.Services;
+using MathNet.Numerics;
 using Microsoft.AspNetCore.Mvc;
+using System.Net.Cache;
 using System.Reflection.Metadata.Ecma335;
 
 namespace CarolineProyect.Server.Controllers
@@ -32,19 +34,32 @@ namespace CarolineProyect.Server.Controllers
         }
 
         [HttpPost("compare")]
-        public List<School> Compare(List<int> ids)
+        public object Compare([FromBody] List<int> ids)
         {
-            var selectedList = new List<School>();
+            var selectedList = new List<SchoolResponse>();
             foreach(int id in ids)
             {
                 var school = _schools.Where(x => x.Id.Equals(id)).FirstOrDefault();
-                selectedList.Add(school);
+
+                Random random = new Random();
+
+                var response = new SchoolResponse
+                {
+                    Institution = school.Institution,
+                    Earnings = school.EarningsTenYear / 0.04,
+                    Age = random.Next(1, 101)
+                };
+
+                selectedList.Add(response);
             }
-            
-            // MATH
 
+            object result = new
+            {
+                result = selectedList,
+                status = true
+            };
 
-            return _schools;
+            return result;
         }
     }
 }
