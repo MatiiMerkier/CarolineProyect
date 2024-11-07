@@ -41,13 +41,13 @@ namespace CarolineProyect.Server.Controllers
             {
                 var school = _schools.Where(x => x.Id.Equals(id)).FirstOrDefault();
 
-                Random random = new Random();
+                var N = Calculation(school);
 
                 var response = new SchoolResponse
                 {
                     Institution = school.Institution,
                     Earnings = school.EarningsTenYear / 0.04,
-                    Age = random.Next(1, 101)
+                    Age = Math.Round(N) + 22
                 };
 
                 selectedList.Add(response);
@@ -60,6 +60,61 @@ namespace CarolineProyect.Server.Controllers
             };
 
             return result;
+        }
+
+        private double Calculation(School school) {
+            double MAX_WAGE = school.EarningsTenYear; ; 
+            double TOTAL_DEBT = 20000; // Ejemplo de valor
+
+
+            double initialValue = school.EarningsOneYear;
+            double increment = (school.EarningsTenYear - school.EarningsOneYear) / 10; 
+            double WAGETOTALAFTERFIRST10YEARS = 0;
+
+            for (int i = 0; i <= 10; i++)
+            {
+                WAGETOTALAFTERFIRST10YEARS += initialValue + (increment * i);
+            }
+
+
+            // Definir la función integral en términos de N
+            Func<double, double> integralFunction = (double N) =>
+            {
+                return Integrate.OnClosedInterval(x =>
+                    (WAGETOTALAFTERFIRST10YEARS * 0.05) +
+                    (MAX_WAGE * 0.05 * N) -
+                    (TOTAL_DEBT + (MAX_WAGE / 0.04)),
+                    10, N);
+            };
+
+            // Resolver para encontrar N cuando la integral sea igual a 0
+            double targetValue = 0;
+            double nLower = 10;
+            double nUpper = 100; // Ajustar el límite superior según sea necesario
+            double tolerance = 1e-5;
+            double nResult = FindN(integralFunction, targetValue, nLower, nUpper, tolerance);
+
+            return nResult;
+
+        }
+
+        static double FindN(Func<double, double> function, double target, double lower, double upper, double tolerance)
+        {
+            double mid = 0;
+            while ((upper - lower) > tolerance)
+            {
+                mid = (lower + upper) / 2;
+                double result = function(mid);
+
+                if (Math.Abs(result - target) < tolerance)
+                    return mid;
+
+                if (result < target)
+                    lower = mid;
+                else
+                    upper = mid;
+            }
+            return mid;
         }
     }
 }
