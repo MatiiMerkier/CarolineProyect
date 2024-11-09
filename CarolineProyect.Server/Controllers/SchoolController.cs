@@ -41,13 +41,17 @@ namespace CarolineProyect.Server.Controllers
             {
                 var school = _schools.Where(x => x.Id.Equals(id)).FirstOrDefault();
 
-                var N = Calculation(school);
+                double W0 = school.EarningsOneYear;   // Initial wage in year 1 ($)
+                double Wmax = school.EarningsTenYear; // Maximum wage after 10 years ($)
+                double D = 300000;    // Total debt ($)
+                double r = 0.05;     // Annual interest rate (5%)
+                double target = school.EarningsTenYear / 0.04; // Target retirement amount ($)
 
                 var response = new SchoolResponse
                 {
                     Institution = school.Institution,
-                    Earnings = school.EarningsTenYear / 0.04,
-                    Age = Math.Round(N) + 22
+                    Earnings = target,
+                    Age = CalculateYearsToRetirement(W0, Wmax, D, r, target)
                 };
 
                 selectedList.Add(response);
@@ -62,59 +66,35 @@ namespace CarolineProyect.Server.Controllers
             return result;
         }
 
-        private double Calculation(School school) {
-            double MAX_WAGE = school.EarningsTenYear; ; 
-            double TOTAL_DEBT = 20000; // Ejemplo de valor
-
-
-            double initialValue = school.EarningsOneYear;
-            double increment = (school.EarningsTenYear - school.EarningsOneYear) / 10; 
-            double WAGETOTALAFTERFIRST10YEARS = 0;
-
-            for (int i = 0; i <= 10; i++)
-            {
-                WAGETOTALAFTERFIRST10YEARS += initialValue + (increment * i);
-            }
-
-
-            // Definir la función integral en términos de N
-            Func<double, double> integralFunction = (double N) =>
-            {
-                return Integrate.OnClosedInterval(x =>
-                    (WAGETOTALAFTERFIRST10YEARS * 0.05) +
-                    (MAX_WAGE * 0.05 * N) -
-                    (TOTAL_DEBT + (MAX_WAGE / 0.04)),
-                    10, N);
-            };
-
-            // Resolver para encontrar N cuando la integral sea igual a 0
-            double targetValue = 0;
-            double nLower = 10;
-            double nUpper = 100; // Ajustar el límite superior según sea necesario
-            double tolerance = 1e-5;
-            double nResult = FindN(integralFunction, targetValue, nLower, nUpper, tolerance);
-
-            return nResult;
-
-        }
-
-        static double FindN(Func<double, double> function, double target, double lower, double upper, double tolerance)
+        static double CalculateYearsToRetirement(double W0, double Wmax, double D, double r, double target)
         {
-            double mid = 0;
-            while ((upper - lower) > tolerance)
+            double total401kBalance = 0;
+            double increase = Wmax - W0;
+            double wage = W0;
+
+            // Phase 1: First 10 years with wage increase and debt repayment
+            for (int year = 1; year <= 10; year++)
             {
-                mid = (lower + upper) / 2;
-                double result = function(mid);
+                wage += increase * 0.1;  // Wage increases 10% each year
+                double contribution = 0.05 * (wage - (D * 0.1));
 
-                if (Math.Abs(result - target) < tolerance)
-                    return mid;
-
-                if (result < target)
-                    lower = mid;
-                else
-                    upper = mid;
+                // Compound interest on the contribution from the year it was made
+                total401kBalance += contribution * Math.Exp(r * (10 - year));
             }
-            return mid;
+
+            // After 10 years, no debt and wage is fixed at Wmax
+            // Phase 2: From year 11 onward, contributions are based on Wmax
+            int n = 11;
+            while (total401kBalance < target)
+            {
+                double contribution = 0.05 * Wmax;
+                total401kBalance *= (1 + r); // Crecimiento anual del balance
+                total401kBalance += contribution;
+                n++; // Interest grows on past contributions
+            }
+
+            return n;
         }
     }
 }
+
