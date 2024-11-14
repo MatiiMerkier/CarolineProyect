@@ -22,14 +22,14 @@ const SchoolCard = ({schools, selectedSchool, onSelect, alreadySelected, compare
         setShowModal(false);
     };
 
-    const getImageByAge = (age) => {
-        if (age <= 55) {
+    const getImageByAge = (roi) => {
+        if (roi >= 40000) {
             return rankA;
-        } else if (age >= 56 && age <= 67) {
+        } else if (roi >= 30000 && roi < 40000) {
             return rankB;
-        } else if (age >= 68 && age <= 70) {
+        } else if (roi >= 20000 && roi < 30000) {
             return rankC;
-        } else if (age >= 71 && age <= 74) {
+        } else if (roi >= 10000 && roi < 20000) {
             return rankD;
         } else {
             return rankF;
@@ -37,8 +37,8 @@ const SchoolCard = ({schools, selectedSchool, onSelect, alreadySelected, compare
     };
 
     useEffect(() => {
-        if (compareData && compareData.age !== undefined) {
-            const image = getImageByAge(compareData.age);
+        if (compareData && compareData.roi !== undefined) {
+            const image = getImageByAge(compareData.roi);
             setCurrentImage(image);
         } else {
             setCurrentImage(null);  // Reset if compareData or Age is not available
@@ -80,9 +80,9 @@ const SchoolCard = ({schools, selectedSchool, onSelect, alreadySelected, compare
                 <div className="card-main-container-content">
                     <h4>{compareData.institution}</h4>
                     {currentImage && <img src={currentImage} alt="Age-based display" />}
-                    <h1>{compareData.age}</h1>
+                    <h1>{compareData.roi}</h1>
                     <h5>Years to Pay Off Debt: 0</h5>
-                    <h5>401K : {compareData.earnings}k</h5>
+                    <h5>401K : {compareData.earnings}</h5>
                 </div>
             )}
         </div>

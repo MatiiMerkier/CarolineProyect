@@ -8,5 +8,6 @@ namespace CarolineProyect.Server
         public string Institution { get; set; }
         public double Earnings { get; set; }
         public double Age { get; set; }
+        public double ROI { get; set; }
     }
 }
