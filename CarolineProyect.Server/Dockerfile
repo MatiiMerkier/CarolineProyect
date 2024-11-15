@@ -4,7 +4,7 @@ WORKDIR /app
 EXPOSE 80
 
 # Copia los archivos publicados desde la carpeta local 'publish' al contenedor
-COPY ./publish .
+COPY ./CarolineProyect.Server/publish .
 
 # Configura el comando para iniciar la aplicación
 ENTRYPOINT ["dotnet", "CarolineProyect.Server.dll"]
