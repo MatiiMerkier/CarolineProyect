@@ -3,28 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\Matias\\Desktop\\CarolineProyect\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3DF1A8B1-CE05-45BE-B4B0-177E2B8AE83A}|carolineproyect.client\\carolineproyect.client.esproj|c:\\users\\matias\\desktop\\carolineproyect\\carolineproyect.client\\vite.config.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{3DF1A8B1-CE05-45BE-B4B0-177E2B8AE83A}|carolineproyect.client\\carolineproyect.client.esproj|solutionrelative:carolineproyect.client\\vite.config.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+      "AbsoluteMoniker": "D:0:0:{3DF1A8B1-CE05-45BE-B4B0-177E2B8AE83A}|carolineproyect.client\\carolineproyect.client.esproj|c:\\users\\matias\\desktop\\carolineproyect\\carolineproyect.client\\src\\calculator.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{3DF1A8B1-CE05-45BE-B4B0-177E2B8AE83A}|carolineproyect.client\\carolineproyect.client.esproj|solutionrelative:carolineproyect.client\\src\\calculator.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3DF1A8B1-CE05-45BE-B4B0-177E2B8AE83A}|carolineproyect.client\\carolineproyect.client.esproj|c:\\users\\matias\\desktop\\carolineproyect\\carolineproyect.client\\.env||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{3DF1A8B1-CE05-45BE-B4B0-177E2B8AE83A}|carolineproyect.client\\carolineproyect.client.esproj|solutionrelative:carolineproyect.client\\.env||{8B382828-6202-11D1-8870-0000F87579D2}"
+      "AbsoluteMoniker": "D:0:0:{3DF1A8B1-CE05-45BE-B4B0-177E2B8AE83A}|carolineproyect.client\\carolineproyect.client.esproj|c:\\users\\matias\\desktop\\carolineproyect\\carolineproyect.client\\src\\footer.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{3DF1A8B1-CE05-45BE-B4B0-177E2B8AE83A}|carolineproyect.client\\carolineproyect.client.esproj|solutionrelative:carolineproyect.client\\src\\footer.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BA02D7CC-3C1A-4756-A2CA-EBB0BACC0A01}|CarolineProyect.Server\\CarolineProyect.Server.csproj|c:\\users\\matias\\desktop\\carolineproyect\\carolineproyect.server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BA02D7CC-3C1A-4756-A2CA-EBB0BACC0A01}|CarolineProyect.Server\\CarolineProyect.Server.csproj|solutionrelative:carolineproyect.server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3DF1A8B1-CE05-45BE-B4B0-177E2B8AE83A}|carolineproyect.client\\carolineproyect.client.esproj|c:\\users\\matias\\desktop\\carolineproyect\\carolineproyect.client\\src\\header.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{3DF1A8B1-CE05-45BE-B4B0-177E2B8AE83A}|carolineproyect.client\\carolineproyect.client.esproj|solutionrelative:carolineproyect.client\\src\\header.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3DF1A8B1-CE05-45BE-B4B0-177E2B8AE83A}|carolineproyect.client\\carolineproyect.client.esproj|c:\\users\\matias\\desktop\\carolineproyect\\carolineproyect.client\\src\\schoolcard.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{3DF1A8B1-CE05-45BE-B4B0-177E2B8AE83A}|carolineproyect.client\\carolineproyect.client.esproj|solutionrelative:carolineproyect.client\\src\\schoolcard.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BA02D7CC-3C1A-4756-A2CA-EBB0BACC0A01}|CarolineProyect.Server\\CarolineProyect.Server.csproj|c:\\users\\matias\\desktop\\carolineproyect\\carolineproyect.server\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{BA02D7CC-3C1A-4756-A2CA-EBB0BACC0A01}|CarolineProyect.Server\\CarolineProyect.Server.csproj|solutionrelative:carolineproyect.server\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3DF1A8B1-CE05-45BE-B4B0-177E2B8AE83A}|carolineproyect.client\\carolineproyect.client.esproj|c:\\users\\matias\\desktop\\carolineproyect\\carolineproyect.client\\src\\calculator.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{3DF1A8B1-CE05-45BE-B4B0-177E2B8AE83A}|carolineproyect.client\\carolineproyect.client.esproj|solutionrelative:carolineproyect.client\\src\\calculator.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3DF1A8B1-CE05-45BE-B4B0-177E2B8AE83A}|carolineproyect.client\\carolineproyect.client.esproj|c:\\users\\matias\\desktop\\carolineproyect\\carolineproyect.client\\src\\modal.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{3DF1A8B1-CE05-45BE-B4B0-177E2B8AE83A}|carolineproyect.client\\carolineproyect.client.esproj|solutionrelative:carolineproyect.client\\src\\modal.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+      "AbsoluteMoniker": "D:0:0:{BA02D7CC-3C1A-4756-A2CA-EBB0BACC0A01}|CarolineProyect.Server\\CarolineProyect.Server.csproj|c:\\users\\matias\\desktop\\carolineproyect\\carolineproyect.server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA02D7CC-3C1A-4756-A2CA-EBB0BACC0A01}|CarolineProyect.Server\\CarolineProyect.Server.csproj|solutionrelative:carolineproyect.server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,24 +34,50 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "vite.config.js",
-              "DocumentMoniker": "C:\\Users\\Matias\\Desktop\\CarolineProyect\\carolineproyect.client\\vite.config.js",
-              "RelativeDocumentMoniker": "carolineproyect.client\\vite.config.js",
-              "ToolTip": "C:\\Users\\Matias\\Desktop\\CarolineProyect\\carolineproyect.client\\vite.config.js",
-              "RelativeToolTip": "carolineproyect.client\\vite.config.js",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAADkAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2024-11-15T03:49:56.205Z",
+              "DocumentIndex": 1,
+              "Title": "Footer.jsx",
+              "DocumentMoniker": "C:\\Users\\Matias\\Desktop\\CarolineProyect\\carolineproyect.client\\src\\Footer.jsx",
+              "RelativeDocumentMoniker": "carolineproyect.client\\src\\Footer.jsx",
+              "ToolTip": "C:\\Users\\Matias\\Desktop\\CarolineProyect\\carolineproyect.client\\src\\Footer.jsx",
+              "RelativeToolTip": "carolineproyect.client\\src\\Footer.jsx",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2024-11-15T14:53:39.841Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Header.jsx",
+              "DocumentMoniker": "C:\\Users\\Matias\\Desktop\\CarolineProyect\\carolineproyect.client\\src\\Header.jsx",
+              "RelativeDocumentMoniker": "carolineproyect.client\\src\\Header.jsx",
+              "ToolTip": "C:\\Users\\Matias\\Desktop\\CarolineProyect\\carolineproyect.client\\src\\Header.jsx",
+              "RelativeToolTip": "carolineproyect.client\\src\\Header.jsx",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2024-11-15T14:53:12.111Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "SchoolCard.jsx",
+              "DocumentMoniker": "C:\\Users\\Matias\\Desktop\\CarolineProyect\\carolineproyect.client\\src\\SchoolCard.jsx",
+              "RelativeDocumentMoniker": "carolineproyect.client\\src\\SchoolCard.jsx",
+              "ToolTip": "C:\\Users\\Matias\\Desktop\\CarolineProyect\\carolineproyect.client\\src\\SchoolCard.jsx",
+              "RelativeToolTip": "carolineproyect.client\\src\\SchoolCard.jsx",
+              "ViewState": "AQIAAEIAAAAAAAAAAAAAADYAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2024-11-15T12:46:10.627Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "Dockerfile",
               "DocumentMoniker": "C:\\Users\\Matias\\Desktop\\CarolineProyect\\CarolineProyect.Server\\Dockerfile",
               "RelativeDocumentMoniker": "CarolineProyect.Server\\Dockerfile",
@@ -59,51 +85,24 @@
               "RelativeToolTip": "CarolineProyect.Server\\Dockerfile",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2024-11-15T03:33:20.036Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-15T03:33:20.036Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": ".env",
-              "DocumentMoniker": "C:\\Users\\Matias\\Desktop\\CarolineProyect\\carolineproyect.client\\.env",
-              "RelativeDocumentMoniker": "carolineproyect.client\\.env",
-              "ToolTip": "C:\\Users\\Matias\\Desktop\\CarolineProyect\\carolineproyect.client\\.env",
-              "RelativeToolTip": "carolineproyect.client\\.env",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAMAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2024-11-15T02:28:39.647Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Modal.jsx",
-              "DocumentMoniker": "C:\\Users\\Matias\\Desktop\\CarolineProyect\\carolineproyect.client\\src\\Modal.jsx",
-              "RelativeDocumentMoniker": "carolineproyect.client\\src\\Modal.jsx",
-              "ToolTip": "C:\\Users\\Matias\\Desktop\\CarolineProyect\\carolineproyect.client\\src\\Modal.jsx",
-              "RelativeToolTip": "carolineproyect.client\\src\\Modal.jsx",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAABBAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
-              "WhenOpened": "2024-11-15T02:19:53.559Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
               "Title": "Calculator.jsx",
               "DocumentMoniker": "C:\\Users\\Matias\\Desktop\\CarolineProyect\\carolineproyect.client\\src\\Calculator.jsx",
               "RelativeDocumentMoniker": "carolineproyect.client\\src\\Calculator.jsx",
               "ToolTip": "C:\\Users\\Matias\\Desktop\\CarolineProyect\\carolineproyect.client\\src\\Calculator.jsx",
               "RelativeToolTip": "carolineproyect.client\\src\\Calculator.jsx",
-              "ViewState": "AQIAABsAAAAAAAAAAAAAABsAAAAZAAAA",
+              "ViewState": "AQIAAHsAAAAAAAAAAAAAABsAAAAZAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
               "WhenOpened": "2024-11-15T00:27:56.735Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Matias\\Desktop\\CarolineProyect\\CarolineProyect.Server\\Program.cs",
               "RelativeDocumentMoniker": "CarolineProyect.Server\\Program.cs",
@@ -111,8 +110,7 @@
               "RelativeToolTip": "CarolineProyect.Server\\Program.cs",
               "ViewState": "AQIAACAAAAAAAAAAAAAowDwAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-15T00:25:13.495Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-15T00:25:13.495Z"
             }
           ]
         }
