@@ -4,6 +4,7 @@ import './Common.css';
 import SchoolCard from './SchoolCard.jsx';
 
 const Calculator = () => {
+    const API_BASE_URL = import.meta.env.VITE_API_BASE_URL || 'https://localhost:7072';
     const [schools, setSchools] = useState([]);
     const [compareResults, setCompareResults] = useState([]);
     const [compareStatus, setCompareStatus] = useState(false); 
@@ -24,7 +25,7 @@ const Calculator = () => {
         if (isLoading) return; 
         setIsLoading(true); 
 
-        fetch(`https://localhost:7072/School/get-all?skip=${skip}`)
+        fetch(`${API_BASE_URL}/School/get-all?skip=${skip}`)
             .then((response) => response.json())
             .then((data) => {
                 const formattedSchools = data.map((school) => ({
@@ -68,7 +69,7 @@ const Calculator = () => {
 
             const selectedSchoolIds = Object.values(selectedSchools).filter(id => id);
 
-            fetch(`https://localhost:7072/School/compare`, {
+            fetch(`${API_BASE_URL}/School/compare`, {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json'

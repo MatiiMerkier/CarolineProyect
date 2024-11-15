@@ -1,7 +1,8 @@
-#See https://aka.ms/customizecontainer to learn how to customize your debug container and how Visual Studio uses this Dockerfile to build your images for faster debugging.
+# See https://aka.ms/customizecontainer to learn how to customize your debug container and how Visual Studio uses this Dockerfile to build your images for faster debugging.
 
 FROM mcr.microsoft.com/dotnet/aspnet:6.0 AS base
 WORKDIR /app
+# Expose default ports
 EXPOSE 80
 EXPOSE 443
 
@@ -23,4 +24,8 @@ RUN dotnet publish "./CarolineProyect.Server.csproj" -c $BUILD_CONFIGURATION -o 
 FROM base AS final
 WORKDIR /app
 COPY --from=publish /app/publish .
+
+# Set ASPNETCORE_URLS to use the PORT environment variable
+ENV ASPNETCORE_URLS=http://+:${PORT}
+
 ENTRYPOINT ["dotnet", "CarolineProyect.Server.dll"]
