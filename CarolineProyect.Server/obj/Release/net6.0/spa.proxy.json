@@ -1,0 +1,8 @@
+{
+"SpaProxyServer": {
+"ServerUrl": "https://localhost:5173",
+"LaunchCommand": "npm run dev",
+"WorkingDirectory": "C:\\Users\\Matias\\Desktop\\CarolineProyect\\CarolineProyect.Server\\..\\carolineproyect.client",
+"MaxTimeoutInSeconds": "120"
+}
+}
