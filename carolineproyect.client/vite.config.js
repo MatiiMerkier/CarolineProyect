@@ -35,7 +35,6 @@ const target = env.ASPNETCORE_HTTPS_PORT ? `https://localhost:${env.ASPNETCORE_H
 const basePath = '/CarolineProyect/';
 // https://vitejs.dev/config/
 export default defineConfig({
-    base: basePath,
     plugins: [plugin()],
     resolve: {
         alias: {
