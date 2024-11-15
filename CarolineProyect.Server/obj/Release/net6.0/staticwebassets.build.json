@@ -1,0 +1,23 @@
+{
+  "Version": 1,
+  "Hash": "DjNXwUi4U0fddGBISvZ1HBhOaEfdt5CBJBlHa166YPY=",
+  "Source": "CarolineProyect.Server",
+  "BasePath": "_content/CarolineProyect.Server",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [
+    {
+      "Identity": "C:\\Users\\Matias\\Desktop\\CarolineProyect\\carolineproyect.client\\carolineproyect.client.esproj",
+      "Version": 2,
+      "Source": "carolineproyect.client",
+      "GetPublishAssetsTargets": "GetCurrentProjectPublishStaticWebAssetItems",
+      "AdditionalPublishProperties": "",
+      "AdditionalPublishPropertiesToRemove": "WebPublishProfileFile;TargetFramework;RuntimeIdentifier;SelfContained",
+      "GetBuildAssetsTargets": "GetCurrentProjectBuildStaticWebAssetItems",
+      "AdditionalBuildProperties": "",
+      "AdditionalBuildPropertiesToRemove": "WebPublishProfileFile;TargetFramework;RuntimeIdentifier;SelfContained"
+    }
+  ],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
