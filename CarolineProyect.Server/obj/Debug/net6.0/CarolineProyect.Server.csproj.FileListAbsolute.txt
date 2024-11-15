@@ -79,3 +79,8 @@ C:\Users\Matias\Desktop\CarolineProyect\CarolineProyect.Server\bin\Debug\net6.0\
 C:\Users\Matias\Desktop\CarolineProyect\CarolineProyect.Server\bin\Debug\net6.0\tr\FSharp.Core.resources.dll
 C:\Users\Matias\Desktop\CarolineProyect\CarolineProyect.Server\bin\Debug\net6.0\zh-Hans\FSharp.Core.resources.dll
 C:\Users\Matias\Desktop\CarolineProyect\CarolineProyect.Server\bin\Debug\net6.0\zh-Hant\FSharp.Core.resources.dll
+C:\Users\Matias\Desktop\CarolineProyect\CarolineProyect.Server\bin\Debug\net6.0\publish\web.config
+C:\Users\Matias\Desktop\CarolineProyect\CarolineProyect.Server\bin\Debug\net6.0\publish\appsettings.Development.json
+C:\Users\Matias\Desktop\CarolineProyect\CarolineProyect.Server\bin\Debug\net6.0\publish\appsettings.json
+C:\Users\Matias\Desktop\CarolineProyect\CarolineProyect.Server\bin\Debug\net6.0\publish\CarolineProyect.Server.deps.json
+C:\Users\Matias\Desktop\CarolineProyect\CarolineProyect.Server\bin\Debug\net6.0\publish\CarolineProyect.Server.runtimeconfig.json
