@@ -5,12 +5,13 @@ const Modal = ({ show, handleClose, selectedSchool, onSelect, schools, alreadySe
     const [filter, setFilter] = useState(''); // Estado para el filtro
     const [filteredSchools, setFilteredSchools] = useState([]); // Estado para las escuelas filtradas
     const [loading, setLoading] = useState(false); // Estado para manejar la carga
+    const apiUrl = import.meta.env.VITE_API_URL;
 
     useEffect(() => {
         const fetchSchools = async (filter) => {
             setLoading(true);
             try {
-                const response = await fetch(filter ? `https://localhost:7072/School/filter?filter=${filter}` : 'https://localhost:7072/School/get-all?skip=0');
+                const response = await fetch(filter ? `${apiUrl}/School/filter?filter=${filter}` : `${apiUrl}/School/get-all?skip=0 `);
                 const data = await response.json();
 
                 const formattedSchools = data.map((school) => ({

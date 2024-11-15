@@ -14,6 +14,7 @@ const Calculator = () => {
     }); 
     const [skip, setSkip] = useState(0);
     const [isLoading, setIsLoading] = useState(false); 
+    const apiUrl = import.meta.env.VITE_API_URL;
 
     // Cargar los datos del servidor al cargar el componente
     useEffect(() => {
@@ -24,7 +25,7 @@ const Calculator = () => {
         if (isLoading) return; 
         setIsLoading(true); 
 
-        fetch(`https://localhost:7072/School/get-all?skip=${skip}`)
+        fetch(`${apiUrl}/School/get-all?skip=${skip}`)
             .then((response) => response.json())
             .then((data) => {
                 const formattedSchools = data.map((school) => ({
@@ -68,7 +69,7 @@ const Calculator = () => {
 
             const selectedSchoolIds = Object.values(selectedSchools).filter(id => id);
 
-            fetch(`https://localhost:7072/School/compare`, {
+            fetch(`${apiUrl}/School/compare`, {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json'

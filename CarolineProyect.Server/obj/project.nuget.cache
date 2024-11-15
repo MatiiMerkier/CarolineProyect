@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "8+9vpsdtAwROn8BHcw+ma+dh2b0t/t2c2SJ4IAOMn3FclvAo8Bp2WC7rB6asI4IWTNOfQcV7qzrS4zEAhctgwQ==",
+  "dgSpecHash": "43AIWqe/Ck1JDTv3G1SPlSq1ibiBleOMvu1BVb6wTwCoNQPZxLBB5c/v16c6XM3NgADGmtgy8Z1dTBIJlCrIng==",
   "success": true,
   "projectFilePath": "C:\\Users\\Matias\\Desktop\\CarolineProyect\\CarolineProyect.Server\\CarolineProyect.Server.csproj",
   "expectedPackageFiles": [
@@ -12,7 +12,7 @@
     "C:\\Users\\Matias\\.nuget\\packages\\mathnet.numerics\\6.0.0-beta1\\mathnet.numerics.6.0.0-beta1.nupkg.sha512",
     "C:\\Users\\Matias\\.nuget\\packages\\mathnet.numerics.fsharp\\6.0.0-beta1\\mathnet.numerics.fsharp.6.0.0-beta1.nupkg.sha512",
     "C:\\Users\\Matias\\.nuget\\packages\\mathnet.symbolics\\0.25.0\\mathnet.symbolics.0.25.0.nupkg.sha512",
-    "C:\\Users\\Matias\\.nuget\\packages\\microsoft.aspnetcore.spaproxy\\6.0.35\\microsoft.aspnetcore.spaproxy.6.0.35.nupkg.sha512",
+    "C:\\Users\\Matias\\.nuget\\packages\\microsoft.aspnetcore.spaproxy\\6.0.36\\microsoft.aspnetcore.spaproxy.6.0.36.nupkg.sha512",
     "C:\\Users\\Matias\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
     "C:\\Users\\Matias\\.nuget\\packages\\microsoft.extensions.configuration\\8.0.0\\microsoft.extensions.configuration.8.0.0.nupkg.sha512",
     "C:\\Users\\Matias\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\8.0.0\\microsoft.extensions.configuration.abstractions.8.0.0.nupkg.sha512",
@@ -24,6 +24,7 @@
     "C:\\Users\\Matias\\.nuget\\packages\\microsoft.extensions.primitives\\8.0.0\\microsoft.extensions.primitives.8.0.0.nupkg.sha512",
     "C:\\Users\\Matias\\.nuget\\packages\\microsoft.io.recyclablememorystream\\3.0.1\\microsoft.io.recyclablememorystream.3.0.1.nupkg.sha512",
     "C:\\Users\\Matias\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\Matias\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.19.6\\microsoft.visualstudio.azure.containers.tools.targets.1.19.6.nupkg.sha512",
     "C:\\Users\\Matias\\.nuget\\packages\\microsoft.win32.systemevents\\6.0.0\\microsoft.win32.systemevents.6.0.0.nupkg.sha512",
     "C:\\Users\\Matias\\.nuget\\packages\\swashbuckle.aspnetcore\\6.5.0\\swashbuckle.aspnetcore.6.5.0.nupkg.sha512",
     "C:\\Users\\Matias\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.5.0\\swashbuckle.aspnetcore.swagger.6.5.0.nupkg.sha512",
