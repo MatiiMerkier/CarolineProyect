@@ -1,26 +1,10 @@
-#See https://aka.ms/customizecontainer to learn how to customize your debug container and how Visual Studio uses this Dockerfile to build your images for faster debugging.
-
+# Usa una imagen base de .NET para la ejecución
 FROM mcr.microsoft.com/dotnet/aspnet:6.0 AS base
 WORKDIR /app
 EXPOSE 80
-EXPOSE 443
 
-FROM mcr.microsoft.com/dotnet/sdk:6.0 AS build
-ARG BUILD_CONFIGURATION=Release
-WORKDIR /src
-COPY ["carolineproyect.client/nuget.config", "carolineproyect.client/"]
-COPY ["CarolineProyect.Server/CarolineProyect.Server.csproj", "CarolineProyect.Server/"]
-COPY ["carolineproyect.client/carolineproyect.client.esproj", "carolineproyect.client/"]
-RUN dotnet restore "./CarolineProyect.Server/CarolineProyect.Server.csproj"
-COPY . .
-WORKDIR "/src/CarolineProyect.Server"
-RUN dotnet build "./CarolineProyect.Server.csproj" -c $BUILD_CONFIGURATION -o /app/build
+# Copia los archivos publicados desde la carpeta local 'publish' al contenedor
+COPY ./publish .
 
-FROM build AS publish
-ARG BUILD_CONFIGURATION=Release
-RUN dotnet publish "./CarolineProyect.Server.csproj" -c $BUILD_CONFIGURATION -o /app/publish /p:UseAppHost=false
-
-FROM base AS final
-WORKDIR /app
-COPY --from=publish /app/publish .
+# Configura el comando para iniciar la aplicación
 ENTRYPOINT ["dotnet", "CarolineProyect.Server.dll"]
